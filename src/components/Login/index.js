@@ -44,13 +44,13 @@ const Login = () => {
 
   const classes = makeStyles((theme) => ({
     root: {
-      minWidth: 350,
+      minWidth: 300,
     },
     title: {
       fontSize: 14,
     },
     large: {
-      paddingBottom: "6px",
+      paddingBottom: "0.5em",
       marginBottom: "2px",
       filter: "drop-shadow(0px 0px 15px #222)",
     },
@@ -61,15 +61,15 @@ const Login = () => {
     },
     button: {
       marginTop: theme.spacing(2),
-      fontSize: "18px",
-      width: "150px",
+      fontSize: "1.13rem",
+      width: "250px",
       "&:hover": {
-        border: `1px solid ${theme.palette.action.success}`,
+        border: `0.1em solid ${theme.palette.action.success}`,
         color: theme.palette.action.success,
       },
     },
     buttonGrouped: {
-      width: "150px",
+      width: "250px",
     },
   }))();
 
