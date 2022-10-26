@@ -21,21 +21,21 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
   },
   appBar: {
-    height: "64px",
+    height: "100px",
     display: "flex",
     justifyContent: "center",
-    marginTop: "20px",
+    marginTop: "1.2em",
     background: `linear-gradient(90deg, rgba(0,0,0,1) 16%, rgba(59,58,48,1) 60%, rgba(56,55,51,1) 100%) !important`,
   },
   linkText: {
     textDecoration: `none`,
     color: theme.palette.text.disabled,
-    marginLeft: "10px",
+    marginLeft: "0.75em",
   },
   linkTextActive: {
     textDecoration: `none`,
     color: theme.palette.text.primary,
-    marginLeft: "10px",
+    marginLeft: "0.75em",
   },
 }));
 
